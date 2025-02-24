@@ -68,3 +68,16 @@ let data = """
 let decodedList = List.tryDecode(from: try JSON(data: data.data(using: .utf8)!))
 
 ```
+
+#### Swift Package Manager
+
+```swift
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    dependencies: [
+        .package(url: "https://github.com/kk-vv/JSONDecodable", from: "1.0.0"),
+    ]
+)
+```
