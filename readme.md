@@ -1,6 +1,6 @@
 ### JSONDecodable
 
->Extension model for JSONDEcodable with SwiftyJSON
+>Extension model for JSONDecodable with SwiftyJSON
 
 - Example
 
