@@ -4,7 +4,7 @@
 
 - Example
 
-```
+```swift
 import JSONDecodable
 import SwiftyJSON
 
