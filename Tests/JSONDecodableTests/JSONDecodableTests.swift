@@ -32,8 +32,9 @@ import Testing
     "title": "JSON"
   }
   """
-  
-  let decodedList = List.tryDecode(from: try JSON(data: data.data(using: .utf8)!))
-  
+    
+  //let decodedList = List.tryDecode(from: try JSON(data: data.data(using: .utf8)!))
+  let decodedList = List.tryDecode(from: JSON(parseJSON: data))
+
   #expect(decodedList == list)
 }

@@ -65,7 +65,8 @@ let data = """
 }
 """
 
-let decodedList = List.tryDecode(from: try JSON(data: data.data(using: .utf8)!))
+//let decodedList = List.tryDecode(from: try JSON(data: data.data(using: .utf8)!))
+let decodedList = List.tryDecode(from: JSON(parseJSON: data))
 
 ```
 
